@@ -10,10 +10,15 @@ Host ts
     IdentityFile ~/.ssh/ku_rsa
     VerifyHostKeyDNS no
     GSSAPIAuthentication no
-Host hc
+Host uc
     User root
+    HostName 122.11.45.195
+    IdentityFile ~/.ssh/ku_rsa
+    VerifyHostKeyDNS no
+    GSSAPIAuthentication no
+Host hc
     Port 7035
-    HostName 106.187.89.40
+    HostName 206.253.165.154 
     IdentityFile ~/.ssh/saipanno_rsa
     VerifyHostKeyDNS no
     GSSAPIAuthentication no
