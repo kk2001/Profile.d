@@ -45,8 +45,8 @@ endif
 
     " 快捷键定义
     let mapleader=","
-    imap <C-a> <ESC>I  " Ctrl+A移动光标到行首
-    imap <C-e> <ESC>A  " Ctrl+A移动光标到行尾
+    imap <C-a> <ESC>I
+    imap <C-e> <ESC>A
 
 " <tab>设置
     set smarttab
