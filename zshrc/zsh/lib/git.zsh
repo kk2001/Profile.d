@@ -93,4 +93,4 @@ POST_1_7_2_GIT=$(git_compare_version "1.7.2")
 #clean up the namespace slightly by removing the checker function
 unset -f git_compare_version
 
-
+#export GIT_PROXY_COMMAND=~/bin/proxy-wrapper
