@@ -1,21 +1,3 @@
-Host db
-    User root
-    HostName 122.11.45.8
-    IdentityFile ~/.ssh/ku_rsa
-    VerifyHostKeyDNS no
-    GSSAPIAuthentication no
-Host ts
-    User root
-    HostName 122.11.45.123
-    IdentityFile ~/.ssh/ku_rsa
-    VerifyHostKeyDNS no
-    GSSAPIAuthentication no
-Host uc
-    User root
-    HostName 122.11.45.195
-    IdentityFile ~/.ssh/ku_rsa
-    VerifyHostKeyDNS no
-    GSSAPIAuthentication no
 Host hc
     Port 7035
     HostName 206.253.165.154 
@@ -44,3 +26,12 @@ Host nkb
     ControlPath /tmp/211.147.13.166-%r@%h
 Host github.com
     IdentityFile ~/.ssh/saipanno_rsa
+Host st
+    User root 
+    HostName storage.saipanno.com
+Host master
+    User root
+    HostName 122.11.39.45
+    IdentityFile ~/.ssh/saipanno_rsa
+    VerifyHostKeyDNS no
+    GSSAPIAuthentication no
